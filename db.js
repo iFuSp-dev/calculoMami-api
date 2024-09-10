@@ -14,7 +14,8 @@ export async function leerTelas(){
 
             const telas = await coleccion.find({}).toArray();
 
-
+            console.log(telas);
+            
 
             ok(telas);
             conexion.close();
