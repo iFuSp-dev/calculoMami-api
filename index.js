@@ -11,6 +11,8 @@ server.use(cors())
 
 
 server.get("/telas",async (req,res ) => {
+    console.log('PUERTA');
+    
     try {
         
         let telas = await leerTelas()
